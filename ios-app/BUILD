@@ -4,13 +4,13 @@ objc_binary(
         "UrlGet/main.m",
     ],
     deps = [
-        ":UrlGetClasses",
+        ":url-get-classes",
     ],
     infoplist = "UrlGet/UrlGet-Info.plist",
 )
 
 objc_library(
-    name = "UrlGetClasses",
+    name = "url-get-classes",
     srcs = [
         "UrlGet/AppDelegate.m",
         "UrlGet/UrlGetViewController.m",
